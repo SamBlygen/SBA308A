@@ -1,0 +1,15 @@
+body {
+  background-color: orchid;
+  font-size: 1.6rem;
+}
+header {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+section{
+ position: relative;
+ vertical-align: top;
+ display: inline-block;
+
+}
