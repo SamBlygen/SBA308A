@@ -1,15 +1,49 @@
 body {
   background-color: maroon;
   font-size: 1.6rem;
+  margin: 20px;
+  text-align: center;
+
 }
 header {
  display: flex;
  justify-content: center;
  align-items: center;
+ color: teal;
 }
-section{
- display: flex;
- justify-content: space-evenly;
- align-items: center;
 
+#search-container{
+  margin-bottom: 20px;
+  color: beige;
+
+ 
+
+}
+
+#verse-container {
+  margin-top: 20px;
+  
+}
+
+#promise-button {
+  margin-top: 20px;
+  background-color: teal;
+  border-radius: 2px;
+}
+
+#save-verse-button{
+  margin-top: 20px;
+  background-color: teal;
+  border-radius: 2px;
+}
+
+#update-verse-button{
+  margin-top: 20px;
+  background-color: teal;
+  border-radius: 2px;
+}
+#inspire-button{
+  margin-top: 20px;
+  background-color: teal;
+  border-radius: 2px;
 }
