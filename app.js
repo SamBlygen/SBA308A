@@ -1,7 +1,7 @@
-// Import necessary functions from the API
+
 import { searchVerse, saveVerse, updateVerse } from './api.js';
 
-// Display functions
+
 function displayVerse(data) {
   const verseDisplay = document.getElementById('verseDisplay');
   verseDisplay.textContent = `${data.reference} - ${data.text}`;
@@ -25,6 +25,7 @@ function updatePaginationControls(currentPage, totalPages, onPageChange) {
     paginationControls.appendChild(button);
   }
 }
+
 
 function displaySavedVerses(savedVerses) {
   const savedVersesDisplay = document.getElementById('savedVersesDisplay');
