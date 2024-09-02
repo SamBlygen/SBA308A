@@ -3,47 +3,37 @@ body {
   font-size: 1.6rem;
   margin: 20px;
   text-align: center;
-
 }
+
 header {
- display: flex;
- justify-content: center;
- align-items: center;
- color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: teal;
 }
 
-#search-container{
+#search-container {
   margin-bottom: 20px;
   color: beige;
-
- 
-
 }
 
 #verse-container {
   margin-top: 20px;
-  
 }
 
-#promise-button {
+#save-verse-button,
+#view-saved-button {
   margin-top: 20px;
   background-color: teal;
   border-radius: 2px;
+  padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 
-#save-verse-button{
+#verseDisplay, #savedVersesDisplay {
   margin-top: 20px;
-  background-color: teal;
-  border-radius: 2px;
+  color: white;
 }
 
-#update-verse-button{
-  margin-top: 20px;
-  background-color: teal;
-  border-radius: 2px;
-}
-#inspire-button{
-  margin-top: 20px;
-  background-color: teal;
-  border-radius: 2px;
-}

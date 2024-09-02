@@ -13,19 +13,21 @@
   <div id="search-container">
     <input type="text" id="search-input" placeholder="Search for a verse...">
     <button id="search-button">Search</button>
-  <main>
-<section>
-<div id="interaction-container">
-  <button id="promise-button">God's Promises</button>
-  <button id="save-verse-button">Strength Verses</button>
-  <button id="update-verse-button">Blessing Verses</button>
-  <button id="inspire-button">Inspirational Verses</button>
+    </div>
+    <main>
+      <section id="verse-container">
+        <div id="verseDisplay"></div>
+        <div id="pagination-controls"></div>
+      </section>
+  
+      <section id="interaction-container">
+        <button id="save-verse-button">Save Verse</button>
+        <button id="view-saved-button">View Saved Verses</button>
+        <div id="savedVersesDisplay" style="visibility: hidden;"></div>
 
-</section>
-<div id="verseDisplay">
-
-</div>
-  </main>
+      </section>
+    </main>
+  
   
   <script type="module" src="./app.js"></script>
   
