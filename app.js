@@ -1,5 +1,9 @@
-
 import { searchVerse, saveVerse, updateVerse } from './api.js';
+
+window.onload = function() {
+  alert("Welcome to Verse Bible Finder!");
+  alert(" Try some of our favorites Isaiah 40:28-31, Roman 15:13, Proverbs 3:5-6")
+};
 
 
 function displayVerse(data) {
